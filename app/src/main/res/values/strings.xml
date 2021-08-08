@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">True Fan Quiz</string>
+    <string name="your_quiz_score">Your Quiz Score:</string>
+    <string name="some_msg">some msg</string>
+</resources>
