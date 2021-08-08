@@ -1,9 +1,9 @@
 package com.example.realfan_truefan.utils
 
-import com.example.realfan_truefan.utils.Constants.ApiConfig.BASE_API_URL
+import com.example.realfan_truefan.utils.constants.ApiConfig.BASE_API_URL
 import com.google.gson.GsonBuilder
 import com.example.realfan_truefan.api.ApiService
-import com.example.realfan_truefan.utils.Constants.ApiConfig.API_VERSION
+import com.example.realfan_truefan.utils.constants.ApiConfig.API_VERSION
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit

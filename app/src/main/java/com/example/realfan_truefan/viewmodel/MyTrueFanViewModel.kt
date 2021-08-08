@@ -3,9 +3,9 @@ package com.example.realfan_truefan.viewmodel
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.realfan_truefan.utils.NetworkResponse
-import com.example.realfan_truefan.utils.Constants.Status
+import com.example.realfan_truefan.utils.constants.Status
 import com.example.realfan_truefan.model.QuizScoreResponse
-import com.example.realfan_truefan.utils.Constants.ApiConfig
+import com.example.realfan_truefan.utils.constants.ApiConfig
 import com.example.realfan_truefan.utils.ApiHelper
 import com.example.realfan_truefan.utils.NetworkResponseEnc
 import com.example.realfan_truefan.utils.NetworkUtil

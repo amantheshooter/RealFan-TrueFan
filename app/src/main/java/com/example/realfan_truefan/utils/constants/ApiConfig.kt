@@ -1,4 +1,4 @@
-package com.example.realfan_truefan.utils.Constants
+package com.example.realfan_truefan.utils.constants
 
 /**
  * A Singleton class to hold API related information
