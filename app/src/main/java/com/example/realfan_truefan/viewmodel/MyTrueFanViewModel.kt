@@ -14,7 +14,7 @@ import kotlinx.coroutines.*
 class MyTrueFanViewModel : ViewModel() {
     private var networkResponse: NetworkResponse
     val errorMessage = MutableLiveData<String>()
-    val quizList = MutableLiveData<QuizScoreResponse>()
+    val quizScore = MutableLiveData<QuizScoreResponse>()
     private var job: Job? = null
 
     init {
@@ -31,7 +31,7 @@ class MyTrueFanViewModel : ViewModel() {
             val res = networkResponse.getQuizScoreResponse(ApiConfig.SAMPLE_QUIZ_ENDPOINT)
             withContext(Dispatchers.Main) {
                 if (res.isSuccessful) {
-                    quizList.postValue(res.body())
+                    quizScore.postValue(res.body())
                 } else {
                     onError("Error : ${res.message()} ")
                 }

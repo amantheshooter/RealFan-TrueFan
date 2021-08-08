@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
         myTrueFanViewModel.getQuizScore()
-        myTrueFanViewModel.quizList.observe(this, {
+        myTrueFanViewModel.quizScore.observe(this, {
             score.text = it.score.toString()
             score_msg.text = it.msg.toString()
         })
